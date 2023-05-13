@@ -6,7 +6,7 @@
 /*   By: ivautrav <ivautrav@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 03:07:40 by ivautrav          #+#    #+#             */
-/*   Updated: 2023/05/13 03:26:24 by ivautrav         ###   ########.fr       */
+/*   Updated: 2023/05/13 03:33:00 by ivautrav         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 
 private:
 	int					value;
-	static const int	bits_size;
+	static const int	bits_size = 8;
 };
 
 #endif
